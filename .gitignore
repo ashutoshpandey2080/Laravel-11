@@ -1,0 +1,39 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore all .env files in any subfolder
+**/.env
+**/.env.*
+
+# Ignore vendor folders in all projects
+**/vendor/
+
+# Ignore node_modules folders
+**/node_modules/
+
+# Ignore storage debug files
+**/storage/*.key
+**/storage/*.log
+**/storage/framework/cache/*
+**/storage/framework/sessions/*
+**/storage/framework/views/*
+
+# Ignore compiled files
+**/public/hot
+**/public/storage
+**/storage/*.key
+**/storage/*.log
+
+# Ignore Composer files that should not be committed
+**/composer.lock
+**/package-lock.json
+
+# Ignore IDE and editor folders
+.idea/
+.vscode/
+*.code-workspace
+
+# Optional: Ignore backup files
+*.bak
+*.tmp
